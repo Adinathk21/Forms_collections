@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body{
+                height: 610px;      
+            background-image: linear-gradient(to bottom right,#555fff,red,yellow);            
+        }
+        #parent{
+            height: 450px;
+            width: 800px;
+            border: 1px solid;margin: 0 auto;
+            background-color: white;
+            margin-top: 100px;
+         }
+        #h2{height: 50px;
+            width: 800px;
+            margin-top: 20px;
+        }
+       input[type="text"] {
+            border: none;
+            color: blueviolet;
+            outline: none;
+            border-bottom: 1px solid; width: 300px;   background-image: linear-gradient(to bottom right,#555fff,red,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;  
+        }
+        input[type="email"]{
+            border: none;
+            color: blueviolet;
+            outline: none;
+            border-bottom: 1px solid ;
+            width: 300px;   
+            background-image: linear-gradient(to bottom right,#555fff,red,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }   
+        .color{
+            background-image: linear-gradient(to bottom right,#555fff,red,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #as1{
+            position: relative;
+            right: 100px;
+        }
+        .st,.sc,.rd{ position: relative;
+            left: 50px;   
+            height: 70px;           
+        }
+         #RD{
+            width: 680px;
+            border: none;
+            border-bottom: 1px solid;
+        }
+        .na{
+            position: relative;
+            left: 30px;background-image: linear-gradient(to bottom right,#555fff,red,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #sub{
+            height: 30px;width: 150px;position: relative;
+            left: 51px; top: 50px; 
+            background-image: linear-gradient(to bottom right,#555fff,red,yellow); 
+            border: none; 
+        }     
+    </style>
+</head>
+<body><form action="">
+    <div id="parent"> 
+        <div id="h2" class="color">
+            <center><h2> Responsive Contact us Form</h2></center>
+        </div>
+        <div>
+            <table>
+                <tbody>
+                    <tr class="st">
+                        <td><input type="text" placeholder="First Name" class=""></td>
+                        <td><input type="text" id placeholder="Last Name" class="na"></td>
+                    </tr>
+                    <tr>
+                        <td class="sc"><input type="email" placeholder="Email Address"></td>
+                        <td class="sc"><input type="text"  placeholder="Website Name" class="na"></td>
+                    </tr>
+                    <tr>
+                        <td class="rd" colspan="2" ><input type="text" id="RD" placeholder="Write your massage"></td>
+                        <!-- <td class="rd">2</td> -->
+                    </tr>
+                    <tr>
+                     <td colspan="2" class="sub"> <input type="submit" value="SUBMIT" id="sub"></td>
+                        <!-- <td></td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+</body>
+</html>
